@@ -1,0 +1,45 @@
+{
+  "title": "Hacker Stories",
+  "initialStories": [
+    {
+      "objectID": 1,
+      "title": "React",
+      "url": "https://reactjs.org/",
+      "author": "Alan Walke",
+      "num_comments": 4,
+      "points": 3
+    },
+    {
+      "objectID": 2,
+      "title": "Redux",
+      "url": "https://redux.js.org/",
+      "author": "Dan Abrahamov, Andrew Clark",
+      "num_comments": 4,
+      "points": 2
+    },
+    {
+      "objectID": 3,
+      "title": "Node",
+      "url": "https://redux.js.org/",
+      "author": "Dan Abrahamov",
+      "num_comments": 1,
+      "points": 3
+    },
+    {
+      "objectID": 4,
+      "title": "Express",
+      "url": "https://redux.js.org/",
+      "author": "Andrew Clark",
+      "num_comments": 2,
+      "points": 5
+    },
+    {
+      "objectID": 5,
+      "title": "Nextjs",
+      "url": "https://redux.js.org/",
+      "author": "Alan Walke",
+      "num_comments": 1,
+      "points": 2
+    }
+  ]
+}
