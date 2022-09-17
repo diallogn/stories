@@ -14,3 +14,110 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  min-height: 100vh;
+  padding: 20px;
+  background: #88e4d4;
+  background: linear-gradient(to left, #b6fbff, #88a4d4);
+  color: #171212;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headline-primary {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.sortButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sortButtons > select {
+  padding: 5px 7px;
+  background-color: transparent ;
+  border: 1px solid #171212;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination > button {
+  color: #fff;
+  background-color: #000;
+}
+.sortButtons > select:focus {
+  outline: none;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.item > span {
+  padding: 0 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.item > span > a {
+  color: inherit
+}
+.button {
+  background: transparent;
+  border: 1px solid #171212;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  margin-right: 10px;
+}
+.button:hover {
+  background-color: #171212;
+  color: #fff;
+}
+.button-small {
+  padding: 5px;
+}
+.button-large {
+  padding: 10px;
+}
+.search-form{
+  padding: 10px 0 0 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #171212;
+  background-color: transparent;
+  font-size: 24px;
+}
+.input:focus{
+  outline: 0;
+}
+
+.lastSearches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 1.2rem;
+}
+.lastSearch {
+  width: 26vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
